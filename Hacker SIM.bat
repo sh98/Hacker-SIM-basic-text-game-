@@ -2,6 +2,8 @@
 color 2
 title Hacker Simulator text game by Person
 set name= 1
+set way= 1
+set long= 1
 echo Welcome to Hacker Simulator! In this text game, you will learn how to be a hacker!
 echo First, what is your name?
 set /p name=
@@ -10,14 +12,14 @@ echo Well yes, yes it is!
 echo First we need to dail up our modem.
 echo What do you want to connect to the internet with? We recommend dail up!
 echo Type the way you want to connect with:
-set /p name=
-echo You are going to use %name% to connect to the internet! Good choice!
+set /p way=
+echo You are going to use %way% to connect to the internet! Good choice!
 echo Now that you're connected to the internet, let's downloald Kali Linux!
 pause
 echo How long are you? Because, if you're a robot I can't arrest you!
 echo Please type how long you are:
-set /p name=
-echo You are %name% long... Good to know. Moving on...
+set /p long=
+echo You are %long% long... Good to know. Moving on...
 pause
 echo Now downloading Kali Linux...
 pause
